@@ -29,155 +29,46 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.A0 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.A11 = new System.Windows.Forms.PictureBox();
+            this.A9 = new System.Windows.Forms.PictureBox();
+            this.A8 = new System.Windows.Forms.PictureBox();
+            this.A12 = new System.Windows.Forms.PictureBox();
+            this.A16 = new System.Windows.Forms.PictureBox();
+            this.A15 = new System.Windows.Forms.PictureBox();
+            this.A14 = new System.Windows.Forms.PictureBox();
+            this.A13 = new System.Windows.Forms.PictureBox();
             this.A1 = new System.Windows.Forms.PictureBox();
             this.A2 = new System.Windows.Forms.PictureBox();
             this.A3 = new System.Windows.Forms.PictureBox();
             this.A4 = new System.Windows.Forms.PictureBox();
+            this.A7 = new System.Windows.Forms.PictureBox();
+            this.A6 = new System.Windows.Forms.PictureBox();
             this.A5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.A0)).BeginInit();
+            this.A10 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.A11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.A1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.A2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.A3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.A4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.A5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A10)).BeginInit();
             this.SuspendLayout();
             // 
             // serialPort1
             // 
-            this.serialPort1.PortName = "COM8";
+            this.serialPort1.PortName = "COM6";
             this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
-            // 
-            // A0
-            // 
-            this.A0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A0.Location = new System.Drawing.Point(677, 132);
-            this.A0.Name = "A0";
-            this.A0.Size = new System.Drawing.Size(140, 207);
-            this.A0.TabIndex = 0;
-            this.A0.TabStop = false;
-            this.A0.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // A1
-            // 
-            this.A1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A1.Location = new System.Drawing.Point(861, 451);
-            this.A1.Name = "A1";
-            this.A1.Size = new System.Drawing.Size(140, 207);
-            this.A1.TabIndex = 1;
-            this.A1.TabStop = false;
-            // 
-            // A2
-            // 
-            this.A2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A2.Location = new System.Drawing.Point(481, 132);
-            this.A2.Name = "A2";
-            this.A2.Size = new System.Drawing.Size(140, 207);
-            this.A2.TabIndex = 2;
-            this.A2.TabStop = false;
-            // 
-            // A3
-            // 
-            this.A3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A3.Location = new System.Drawing.Point(481, 451);
-            this.A3.Name = "A3";
-            this.A3.Size = new System.Drawing.Size(140, 207);
-            this.A3.TabIndex = 3;
-            this.A3.TabStop = false;
-            // 
-            // A4
-            // 
-            this.A4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A4.InitialImage = null;
-            this.A4.Location = new System.Drawing.Point(107, 451);
-            this.A4.Name = "A4";
-            this.A4.Size = new System.Drawing.Size(140, 207);
-            this.A4.TabIndex = 4;
-            this.A4.TabStop = false;
-            // 
-            // A5
-            // 
-            this.A5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A5.Location = new System.Drawing.Point(1038, 132);
-            this.A5.Name = "A5";
-            this.A5.Size = new System.Drawing.Size(140, 207);
-            this.A5.TabIndex = 5;
-            this.A5.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(293, 132);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 207);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(861, 132);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 207);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(107, 132);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(140, 207);
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(293, 451);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(140, 207);
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(677, 451);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(140, 207);
-            this.pictureBox5.TabIndex = 10;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(1038, 451);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(140, 207);
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
             // 
             // label1
             // 
@@ -187,43 +78,197 @@
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 12;
             // 
+            // A11
+            // 
+            this.A11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A11.Location = new System.Drawing.Point(688, 363);
+            this.A11.Name = "A11";
+            this.A11.Size = new System.Drawing.Size(172, 81);
+            this.A11.TabIndex = 51;
+            this.A11.TabStop = false;
+            this.A11.Click += new System.EventHandler(this.A12_Click);
+            // 
+            // A9
+            // 
+            this.A9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A9.Location = new System.Drawing.Point(688, 167);
+            this.A9.Name = "A9";
+            this.A9.Size = new System.Drawing.Size(172, 81);
+            this.A9.TabIndex = 52;
+            this.A9.TabStop = false;
+            // 
+            // A8
+            // 
+            this.A8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A8.Location = new System.Drawing.Point(413, 459);
+            this.A8.Name = "A8";
+            this.A8.Size = new System.Drawing.Size(172, 84);
+            this.A8.TabIndex = 61;
+            this.A8.TabStop = false;
+            // 
+            // A12
+            // 
+            this.A12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A12.Location = new System.Drawing.Point(688, 459);
+            this.A12.Name = "A12";
+            this.A12.Size = new System.Drawing.Size(172, 84);
+            this.A12.TabIndex = 62;
+            this.A12.TabStop = false;
+            // 
+            // A16
+            // 
+            this.A16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A16.Location = new System.Drawing.Point(1053, 459);
+            this.A16.Name = "A16";
+            this.A16.Size = new System.Drawing.Size(172, 84);
+            this.A16.TabIndex = 63;
+            this.A16.TabStop = false;
+            // 
+            // A15
+            // 
+            this.A15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A15.Location = new System.Drawing.Point(1053, 363);
+            this.A15.Name = "A15";
+            this.A15.Size = new System.Drawing.Size(172, 81);
+            this.A15.TabIndex = 64;
+            this.A15.TabStop = false;
+            // 
+            // A14
+            // 
+            this.A14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A14.Location = new System.Drawing.Point(1053, 265);
+            this.A14.Name = "A14";
+            this.A14.Size = new System.Drawing.Size(172, 81);
+            this.A14.TabIndex = 65;
+            this.A14.TabStop = false;
+            // 
+            // A13
+            // 
+            this.A13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A13.Location = new System.Drawing.Point(1053, 167);
+            this.A13.Name = "A13";
+            this.A13.Size = new System.Drawing.Size(172, 81);
+            this.A13.TabIndex = 66;
+            this.A13.TabStop = false;
+            // 
+            // A1
+            // 
+            this.A1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A1.Location = new System.Drawing.Point(48, 167);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(172, 84);
+            this.A1.TabIndex = 67;
+            this.A1.TabStop = false;
+            // 
+            // A2
+            // 
+            this.A2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A2.Location = new System.Drawing.Point(48, 265);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(172, 84);
+            this.A2.TabIndex = 68;
+            this.A2.TabStop = false;
+            // 
+            // A3
+            // 
+            this.A3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A3.Location = new System.Drawing.Point(48, 363);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(172, 84);
+            this.A3.TabIndex = 69;
+            this.A3.TabStop = false;
+            // 
+            // A4
+            // 
+            this.A4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A4.Location = new System.Drawing.Point(48, 459);
+            this.A4.Name = "A4";
+            this.A4.Size = new System.Drawing.Size(172, 84);
+            this.A4.TabIndex = 70;
+            this.A4.TabStop = false;
+            // 
+            // A7
+            // 
+            this.A7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A7.Location = new System.Drawing.Point(413, 363);
+            this.A7.Name = "A7";
+            this.A7.Size = new System.Drawing.Size(172, 84);
+            this.A7.TabIndex = 71;
+            this.A7.TabStop = false;
+            // 
+            // A6
+            // 
+            this.A6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A6.Location = new System.Drawing.Point(413, 265);
+            this.A6.Name = "A6";
+            this.A6.Size = new System.Drawing.Size(172, 84);
+            this.A6.TabIndex = 72;
+            this.A6.TabStop = false;
+            // 
+            // A5
+            // 
+            this.A5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A5.Location = new System.Drawing.Point(413, 167);
+            this.A5.Name = "A5";
+            this.A5.Size = new System.Drawing.Size(172, 84);
+            this.A5.TabIndex = 73;
+            this.A5.TabStop = false;
+            // 
+            // A10
+            // 
+            this.A10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.A10.Location = new System.Drawing.Point(688, 265);
+            this.A10.Name = "A10";
+            this.A10.Size = new System.Drawing.Size(172, 84);
+            this.A10.TabIndex = 74;
+            this.A10.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::ParkingMonitor.Properties.Resources.Dis2016;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1276, 729);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.A10);
             this.Controls.Add(this.A5);
+            this.Controls.Add(this.A6);
+            this.Controls.Add(this.A7);
             this.Controls.Add(this.A4);
             this.Controls.Add(this.A3);
             this.Controls.Add(this.A2);
             this.Controls.Add(this.A1);
-            this.Controls.Add(this.A0);
+            this.Controls.Add(this.A13);
+            this.Controls.Add(this.A14);
+            this.Controls.Add(this.A15);
+            this.Controls.Add(this.A16);
+            this.Controls.Add(this.A12);
+            this.Controls.Add(this.A8);
+            this.Controls.Add(this.A9);
+            this.Controls.Add(this.A11);
+            this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.A0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.A1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.A2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.A3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.A4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.A5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.A10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,19 +277,23 @@
         #endregion
 
         public System.IO.Ports.SerialPort serialPort1;
-        public System.Windows.Forms.PictureBox A0;
-        public System.Windows.Forms.PictureBox A1;
-        private System.Windows.Forms.PictureBox A2;
-        private System.Windows.Forms.PictureBox A3;
-        private System.Windows.Forms.PictureBox A4;
-        private System.Windows.Forms.PictureBox A5;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.PictureBox A11;
+        public System.Windows.Forms.PictureBox A9;
+        public System.Windows.Forms.PictureBox A8;
+        public System.Windows.Forms.PictureBox A12;
+        public System.Windows.Forms.PictureBox A16;
+        public System.Windows.Forms.PictureBox A15;
+        public System.Windows.Forms.PictureBox A14;
+        public System.Windows.Forms.PictureBox A13;
+        public System.Windows.Forms.PictureBox A1;
+        public System.Windows.Forms.PictureBox A2;
+        public System.Windows.Forms.PictureBox A3;
+        public System.Windows.Forms.PictureBox A4;
+        public System.Windows.Forms.PictureBox A7;
+        public System.Windows.Forms.PictureBox A6;
+        public System.Windows.Forms.PictureBox A5;
+        public System.Windows.Forms.PictureBox A10;
     }
 }
 

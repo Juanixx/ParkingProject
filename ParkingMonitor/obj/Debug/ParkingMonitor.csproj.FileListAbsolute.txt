@@ -16,3 +16,13 @@ C:\Users\JuanEduardo\Documents\Visual Studio 2015\Projects\ParkingMonitor\Parkin
 C:\Users\JuanEduardo\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.Form1.resources
 C:\Users\JuanEduardo\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.Properties.Resources.resources
 C:\Users\JuanEduardo\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.csproj.GenerateResource.Cache
+C:\Users\JuanEduardo\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\bin\Debug\MySql.Data.dll
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\bin\Debug\ParkingMonitor.exe.config
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.exe
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.pdb
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\bin\Debug\ParkingMonitor.exe
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\bin\Debug\ParkingMonitor.pdb
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.csprojResolveAssemblyReference.cache
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.Form1.resources
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.Properties.Resources.resources
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.csproj.GenerateResource.Cache

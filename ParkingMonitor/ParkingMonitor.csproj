@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -92,6 +93,174 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pmb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Derecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Izquierda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Derecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Izquierda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-DerechaUltimo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-DerechaUltimo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Izquierda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-IzquierdaUltimo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-IzquierdaUltimo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Derecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Izquierda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Derecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Izquierda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Derecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Izquierda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Derecha6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DerechaUltimo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DerechaUltimo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izquierda6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IzquierdaUltimo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IzquierdaUltimo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pmb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dis2016.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
