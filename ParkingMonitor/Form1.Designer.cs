@@ -81,7 +81,7 @@
             // A11
             // 
             this.A11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A11.Location = new System.Drawing.Point(688, 363);
+            this.A11.Location = new System.Drawing.Point(687, 354);
             this.A11.Name = "A11";
             this.A11.Size = new System.Drawing.Size(172, 81);
             this.A11.TabIndex = 51;
@@ -91,7 +91,7 @@
             // A9
             // 
             this.A9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A9.Location = new System.Drawing.Point(688, 167);
+            this.A9.Location = new System.Drawing.Point(687, 158);
             this.A9.Name = "A9";
             this.A9.Size = new System.Drawing.Size(172, 81);
             this.A9.TabIndex = 52;
@@ -100,7 +100,7 @@
             // A8
             // 
             this.A8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A8.Location = new System.Drawing.Point(413, 459);
+            this.A8.Location = new System.Drawing.Point(412, 444);
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(172, 84);
             this.A8.TabIndex = 61;
@@ -109,7 +109,7 @@
             // A12
             // 
             this.A12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A12.Location = new System.Drawing.Point(688, 459);
+            this.A12.Location = new System.Drawing.Point(687, 444);
             this.A12.Name = "A12";
             this.A12.Size = new System.Drawing.Size(172, 84);
             this.A12.TabIndex = 62;
@@ -118,7 +118,7 @@
             // A16
             // 
             this.A16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A16.Location = new System.Drawing.Point(1053, 459);
+            this.A16.Location = new System.Drawing.Point(1052, 444);
             this.A16.Name = "A16";
             this.A16.Size = new System.Drawing.Size(172, 84);
             this.A16.TabIndex = 63;
@@ -127,7 +127,7 @@
             // A15
             // 
             this.A15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A15.Location = new System.Drawing.Point(1053, 363);
+            this.A15.Location = new System.Drawing.Point(1052, 354);
             this.A15.Name = "A15";
             this.A15.Size = new System.Drawing.Size(172, 81);
             this.A15.TabIndex = 64;
@@ -136,7 +136,7 @@
             // A14
             // 
             this.A14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A14.Location = new System.Drawing.Point(1053, 265);
+            this.A14.Location = new System.Drawing.Point(1052, 256);
             this.A14.Name = "A14";
             this.A14.Size = new System.Drawing.Size(172, 81);
             this.A14.TabIndex = 65;
@@ -145,7 +145,7 @@
             // A13
             // 
             this.A13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A13.Location = new System.Drawing.Point(1053, 167);
+            this.A13.Location = new System.Drawing.Point(1052, 158);
             this.A13.Name = "A13";
             this.A13.Size = new System.Drawing.Size(172, 81);
             this.A13.TabIndex = 66;
@@ -154,7 +154,7 @@
             // A1
             // 
             this.A1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A1.Location = new System.Drawing.Point(48, 167);
+            this.A1.Location = new System.Drawing.Point(47, 158);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(172, 84);
             this.A1.TabIndex = 67;
@@ -163,7 +163,7 @@
             // A2
             // 
             this.A2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A2.Location = new System.Drawing.Point(48, 265);
+            this.A2.Location = new System.Drawing.Point(47, 256);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(172, 84);
             this.A2.TabIndex = 68;
@@ -172,7 +172,7 @@
             // A3
             // 
             this.A3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A3.Location = new System.Drawing.Point(48, 363);
+            this.A3.Location = new System.Drawing.Point(47, 360);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(172, 84);
             this.A3.TabIndex = 69;
@@ -181,7 +181,7 @@
             // A4
             // 
             this.A4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A4.Location = new System.Drawing.Point(48, 459);
+            this.A4.Location = new System.Drawing.Point(47, 450);
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(172, 84);
             this.A4.TabIndex = 70;
@@ -190,7 +190,7 @@
             // A7
             // 
             this.A7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A7.Location = new System.Drawing.Point(413, 363);
+            this.A7.Location = new System.Drawing.Point(412, 354);
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(172, 84);
             this.A7.TabIndex = 71;
@@ -199,7 +199,7 @@
             // A6
             // 
             this.A6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A6.Location = new System.Drawing.Point(413, 265);
+            this.A6.Location = new System.Drawing.Point(412, 256);
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(172, 84);
             this.A6.TabIndex = 72;
@@ -208,7 +208,7 @@
             // A5
             // 
             this.A5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A5.Location = new System.Drawing.Point(413, 167);
+            this.A5.Location = new System.Drawing.Point(412, 158);
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(172, 84);
             this.A5.TabIndex = 73;
@@ -217,7 +217,7 @@
             // A10
             // 
             this.A10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.A10.Location = new System.Drawing.Point(688, 265);
+            this.A10.Location = new System.Drawing.Point(687, 262);
             this.A10.Name = "A10";
             this.A10.Size = new System.Drawing.Size(172, 84);
             this.A10.TabIndex = 74;

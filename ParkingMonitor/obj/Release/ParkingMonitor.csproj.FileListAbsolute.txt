@@ -1,0 +1,4 @@
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\bin\Release\ParkingMonitor.exe.config
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Release\ParkingMonitor.Form1.resources
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Release\ParkingMonitor.Properties.Resources.resources
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Release\ParkingMonitor.csproj.GenerateResource.Cache

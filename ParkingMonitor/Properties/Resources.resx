@@ -127,9 +127,6 @@
   <data name="estacionamientovehicular_64843" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\estacionamientovehicular_64843.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IzquierdaUltimo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IzquierdaUltimo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Derecha11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Derecha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,20 +145,20 @@
   <data name="DerechaUltimo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DerechaUltimo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Derecha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Derecha1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Izquierda6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Derecha61" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Derecha6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IzquierdaUltimo31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IzquierdaUltimo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Izquierda21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Derecha3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Derecha3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IzquierdaUltimo31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IzquierdaUltimo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,14 +172,14 @@
   <data name="pm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Derecha51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Derecha5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Derecha2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Derecha2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dis2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dis2016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,28 +187,34 @@
   <data name="Derecha6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Derecha6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pmb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pmb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Izquierda4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Derecha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Derecha1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Derecha51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Derecha5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IzquierdaUltimo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IzquierdaUltimo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Izquierda61" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pmb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pmb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Derecha3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Derecha3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dis2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dis2016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logoTec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoTec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

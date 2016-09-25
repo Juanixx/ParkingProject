@@ -26,3 +26,7 @@ C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMoni
 C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.Form1.resources
 C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.Properties.Resources.resources
 C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.csproj.GenerateResource.Cache
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\bin\Debug\ParkingMonitor.exe.manifest
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\bin\Debug\ParkingMonitor.application
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.exe.manifest
+C:\Users\Juanix\Documents\Visual Studio 2015\Projects\ParkingMonitor\ParkingMonitor\obj\Debug\ParkingMonitor.application
