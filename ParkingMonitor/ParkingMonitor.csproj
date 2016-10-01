@@ -306,6 +306,19 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoFinal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoVacio.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\fondoFinal8.png" />
+    <None Include="Resources\fondoFinal81.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

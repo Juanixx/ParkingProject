@@ -53,7 +53,7 @@ namespace ParkingMonitor
                     String cadena = serialPort1.ReadLine();
                     string[] separa = cadena.Split(new char[] { ' ' });
                     string AX = separa[0];
-                    Console.Write(separa[1]);
+                        Console.Write(separa[1]);
                     valor = Convert.ToInt32(separa[1]);
 
                     string[] lugar = AX.Split(new char[] { '.' });
@@ -83,16 +83,15 @@ namespace ParkingMonitor
             switch (Convert.ToInt32(lugar))
             {
 
-                case 1:
-                    if (valor > 500)
+                case 0:
+                    if (valor > 850)
                     {
-                        A1.BackgroundImage = Image.FromFile("Derecha2.png");
+                        A0.BackgroundImage = Image.FromFile("Derecha2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A1'";
                     }
                     else
                     {
-                        A1.BackgroundImage = null;
-                        A1.BackColor = Color.Transparent;
+                        A0.BackgroundImage = Image.FromFile("fondo2.png");
                         //A1.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A1'";
 
@@ -100,230 +99,226 @@ namespace ParkingMonitor
                     break;
 
 
-                case 2:
-                    if (valor > 500)
-                    {
-                        A2.BackgroundImage = Image.FromFile("Derecha6.png");
+                case 1:
+                    /*
+                    if (valor > 650)
+                    {*/
+                        A1.BackgroundImage = Image.FromFile("Derecha6.png");
+                    /*
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A2'";
                     }
                     else
                     {
-                        A2.BackgroundImage = null;
-                        A2.BackColor = Color.Transparent;
+                        A1.BackgroundImage = null;
+                        A1.BackColor = Color.Transparent;
                         //A2.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A2'";
                     }
+                    */
                     break;
 
-                case 3:
-                    if (valor > 500)
+                case 2:
+                    if (valor > 970)
                     {
                         
-                        A3.BackgroundImage = Image.FromFile("Derecha4.png");
+                        A2.BackgroundImage = Image.FromFile("Derecha4.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A3'";
                     }
                     else
                     {
-                        A3.BackgroundImage = null;
-                        A3.BackColor = Color.Transparent;
+                        A2.BackgroundImage = Image.FromFile("fondo2.png");
                         //A3.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A3'";
 
                     }
                     break;
 
-                case 4:
-                    if (valor > 500)
+                case 3:
+                    if (valor > 900)
                     {
-                        A4.BackgroundImage = Image.FromFile("Derecha5.png");
+                        A3.BackgroundImage = Image.FromFile("Derecha5.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A4'";
                     }
                     else
                     {
-                        A4.BackgroundImage = null;
-                        A4.BackColor = Color.Transparent;
+                        A3.BackgroundImage = Image.FromFile("fondo2.png");
                         //A4.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A4'";
 
                     }
                     break;
 
-                case 5:
-                    if (valor > 500)
+                case 4:
+                    if (valor > 700)
                     {
                         
-                        A5.BackgroundImage = Image.FromFile("Izquierda1.png");
+                        A4.BackgroundImage = Image.FromFile("Izquierda1.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A5'";
                     }
                     else
                     {
-                        A5.BackgroundImage = null;
-                        A5.BackColor = Color.Transparent;
+                        A4.BackgroundImage = Image.FromFile("fondo2.png");
                         //A5.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A5'";
                     }
                     break;
 
-                case 6:
-                    if (valor > 500)
+                case 5:
+                    if (valor > 900)
                     {
-                        A6.BackgroundImage = Image.FromFile("Izquierda3.png");
+                        A5.BackgroundImage = Image.FromFile("Izquierda3.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A6'";
                     }
                     else
                     {
-                        A6.BackgroundImage = null;
-                        A6.BackColor = Color.Transparent;
+                        A5.BackgroundImage = Image.FromFile("fondo2.png");
                         //A6.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A6'";
                     }
                     break;
                     
-                case 7:
-                    if (valor > 500)
+                case 6:
+                    if (valor > 870)
                     {
-                        A7.BackgroundImage = Image.FromFile("Izquierda2.png");
+                        A6.BackgroundImage = Image.FromFile("Izquierda2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A7'";
                     }
                     else
                     {
-                        A7.BackgroundImage = null;
-                        A7.BackColor = Color.Transparent;
+                        A6.BackgroundImage = Image.FromFile("fondo2.png");
                         //A7.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A7'";
 
                     }
                     break;
 
-                case 8:
-                    if (valor > 500)
+                case 7:
+                    A7.BackgroundImage = Image.FromFile("Izquierda6.png");
+                    /*
+                    if (valor > 690)
                     {
-                        A8.BackgroundImage = Image.FromFile("Izquierda6.png");
+                        A7.BackgroundImage = Image.FromFile("Izquierda6.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A8'";
                     }
                     else
-                    {
-                        A8.BackgroundImage = null;
-                        A8.BackColor = Color.Transparent;
+                    {*/
+                        //A7.BackgroundImage = Image.FromFile("fondo2.png");
                         //A8.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A8'";
-                    }
+                    //}
                     break;
 
-                case 9:
-                    if (valor > 500)
+                case 8:
+                    if (valor > 850)
                     {
-                        A9.BackgroundImage = Image.FromFile("Derecha3.png");
+                        A8.BackgroundImage = Image.FromFile("Derecha3.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A9'";
                     }
                     else
                     {
-                        A9.BackgroundImage = null;
-                        A9.BackColor = Color.Transparent;
+                        A8.BackgroundImage = Image.FromFile("fondo2.png");
                         //A9.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A9'";
                     }
                     break;
 
 
-                case 10:
-                    if (valor > 500)
+                    //No funciona A9
+                case 9:/*
+                    if (valor > 5000)
                     {
-                        A10.BackgroundImage = Image.FromFile("Derecha4.png");
-                        //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A10'";
-                    }
-                    else
-                    {
-                        A10.BackgroundImage = null;
-                        A10.BackColor = Color.Transparent;
-                        //A10.BackgroundImage = Image.FromFile("fondo2.png");
-                        //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A10'";
+                    */
+                        A9.BackgroundImage = Image.FromFile("Derecha6.png");
+                    /*
+                    //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A10'";
+                }
+                else
+                {
+                    A9.BackgroundImage = null;
+                    A9.BackColor = Color.Transparent;
+                    //A10.BackgroundImage = Image.FromFile("fondo2.png");
+                    //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A10'";
 
-                    }
+
+                }*/
                     break;
 
-                case 11:
-                    if (valor > 500)
+                case 10:
+                    if (valor > 850)
                     {
-                        A11.BackgroundImage = Image.FromFile("Derecha5.png");
+                        A10.BackgroundImage = Image.FromFile("Derecha5.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A11'";
                     }
                     else
                     {
-                        A11.BackgroundImage = null;
-                        A11.BackColor = Color.Transparent;
+                        A10.BackgroundImage = Image.FromFile("fondo2.png");
                         //A11.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A11'";
                     }
                     break;
 
-                case 12:
-                    if (valor > 500)
+                case 11:
+                    if (valor > 880)
                     {
-                        A12.BackgroundImage = Image.FromFile("Derecha6.png");
+                        A11.BackgroundImage = Image.FromFile("Derecha6.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A12'";
                     }
                     else
                     {
-                        A12.BackgroundImage = null;
-                        A12.BackColor = Color.Transparent;
+                        A11.BackgroundImage = Image.FromFile("fondo2.png");
                         //A12.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A12'";
                     }
                     break;
 
-                case 13:
-                    if (valor > 500)
+                case 12:
+                    if (valor > 950)
                     {
-                        A13.BackgroundImage = Image.FromFile("Izquierda3.png");
+                        A12.BackgroundImage = Image.FromFile("Izquierda3.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }
                     else
                     {
-                        A13.BackgroundImage = null;
-                        A13.BackColor = Color.Transparent;
+                        A12.BackgroundImage = Image.FromFile("fondo2.png");
                         //A13.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }
                     break;
-                case 14:
-                    if (valor > 500)
+                case 13:
+                    if (valor > 950)
                     {
-                        A14.BackgroundImage = Image.FromFile("Izquierda6.png");
+                        A13.BackgroundImage = Image.FromFile("Izquierda6.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }
                     else
                     {
-                        A14.BackgroundImage = null;
-                        A14.BackColor = Color.Transparent;
+                        A13.BackgroundImage = Image.FromFile("fondo2.png");
                         //A14.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }
                     break;
-                case 15:
-                    if (valor > 500)
+                case 14:
+                    if (valor > 800)
                     {
-                        A15.BackgroundImage = Image.FromFile("Izquierda2.png");
+                        A14.BackgroundImage = Image.FromFile("Izquierda2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }
                     else
                     {
-                        A15.BackgroundImage = null;
-                        A15.BackColor = Color.Transparent;
+                        A14.BackgroundImage = Image.FromFile("fondo2.png");
                         //A15.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }
                     break;
-                case 16:
-                    if (valor > 500)
+                case 15:
+                    if (valor > 850)
                     {
-                        A16.BackgroundImage = Image.FromFile("Izquierda5.png");
+                        A15.BackgroundImage = Image.FromFile("Izquierda5.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }
                     else
                     {
-                        A16.BackgroundImage = null;
-                        A16.BackColor = Color.Transparent;
+                        A15.BackgroundImage = Image.FromFile("fondo2.png");
                         //A16.BackgroundImage = Image.FromFile("fondo2.png");
                         //cmd.CommandText = "UPDATE Cajones SET ValorSensor = '" + valor + "' WHERE letraCajon='A13'";
                     }

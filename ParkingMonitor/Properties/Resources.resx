@@ -145,8 +145,8 @@
   <data name="DerechaUltimo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DerechaUltimo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Derecha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Derecha1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logoTec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoTec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,11 +154,14 @@
   <data name="Derecha61" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Derecha6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IzquierdaUltimo31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IzquierdaUltimo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Izquierda21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IzquierdaUltimo31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IzquierdaUltimo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Derecha3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Derecha3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +190,8 @@
   <data name="Derecha6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Derecha6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pmb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pmb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Derecha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Derecha1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +199,14 @@
   <data name="Izquierda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fondoFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Derecha51" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Derecha5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondoFinal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoFinal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Izquierda11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,13 +217,13 @@
   <data name="Izquierda61" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Izquierda6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Derecha3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Derecha3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pmb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pmb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logoTec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoTec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fondoFinal8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoFinal81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

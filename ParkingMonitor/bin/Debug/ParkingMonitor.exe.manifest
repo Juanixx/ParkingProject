@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ParkingMonitor.exe" size="11402752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ParkingMonitor.exe" size="12549120">
       <assemblyIdentity name="ParkingMonitor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YM1UTbfuvly1NwhKTRrSrRla1CwEy8JLgkLRIsdWqSo=</dsig:DigestValue>
+        <dsig:DigestValue>++WAZXlAA/k4FN+4S/BKZRChG69voGd1D0F+R8bHQck=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,6 +72,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\fondoFinal8.png" size="577299">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hb4ngmmJT159WOBMnYaFezvC7/ZIc5M2oXn+8wMvUJw=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
